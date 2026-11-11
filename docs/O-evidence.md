@@ -2,7 +2,7 @@
 
 Pinned both workflow actions to full commit SHAs, set workflow defaults to `permissions: {}`, and gave the lint job `contents: read`. Checkout uses `persist-credentials: false`.
 
-[Configuration commit](https://github.com/yu1234552026/a9-devsecops-lab/commit/53cc717485c605ee164eeb303b4228169693937)
+[Configuration commit](https://github.com/yu1234552026/a9-devsecops-lab/commit/53cc717485c605ee164eeb303b42281697693937)
 
 [Verified CI](https://github.com/yu1234552026/a9-devsecops-lab/actions/runs/43034092617): the job log shows both expected action SHAs, read-only contents access, zero Flake8 findings and all four regression tests passing.
 
